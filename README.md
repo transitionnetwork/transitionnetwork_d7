@@ -9,6 +9,12 @@ Presently development is focused on National Hub websites, and in turn
 on making the 'Base' set of features and modules shared by Hubs and
 related sites as clean and powerful as possible.
 
+
+Usage
+=====
+* Note you need to used Drush 5+ to sucessfully make this distro.
+
+
 Structure
 =========
 *Base makefiles*
@@ -21,6 +27,7 @@ The _tn__d7-base.make_ provides a standard set of modules and features:
 *National Hub makefiles*
 Extends the 'Base' makefile (_tn__d7-base.make_) to provide extra
 modules and features for National Hubs.
+
 
 Documentation
 =============

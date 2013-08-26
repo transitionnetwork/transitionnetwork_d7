@@ -4,15 +4,16 @@ core = 7.x
 ;
 ; Modules: Contrib
 ;
-
 ; - Location-related
 projects[addressfield][subdir] = "contrib"
+projects[geocoder][subdir] = "contrib"
 projects[geofield][subdir] = "contrib"
-projects[geocoder][subdir] = "contrib"
 projects[geophp][subdir] = "contrib"
+projects[leaflet][subdir] = "contrib"
+projects[leaflet_more_maps][subdir] = "contrib"
 
-; - widget-related
-projects[geocoder][subdir] = "contrib"
+; - Widget-related
+projects[web_widgets][subdir] = "contrib"
 
 
 
@@ -29,15 +30,12 @@ projects[geocoder][subdir] = "contrib"
 ;
 ; Libraries
 ;
-; Bootstrap v2.32 (for Radix - awaiting 3.0 upgrade)
+; - Bootstrap v2.32 (for Radix - awaiting 3.0 upgrade)
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "http://getbootstrap.com/2.3.2/assets/bootstrap.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 
-; geoPHP -- Not needed?
-;libraries[geoPHP][download][type] = "git"
-;libraries[geoPHP][download][url] = "https://github.com/phayes/geoPHP.git"
-;libraries[geoPHP][download][branch] = "master"
-;libraries[geoPHP][download][directory_name] = "geoPHP"
-
-
+; - Leaflet
+libraries[bootstrap][download][type] = "git"
+libraries[bootstrap][download][url] = "https://github.com/Leaflet/Leaflet.git"
+libraries[bootstrap][directory_name] = "leaflet"
