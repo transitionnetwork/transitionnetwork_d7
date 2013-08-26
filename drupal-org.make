@@ -34,10 +34,10 @@ libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "http://getbootstrap.com/2.3.2/assets/bootstrap.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 
-; geoPHP
-libraries[geoPHP][download][type] = "git"
-libraries[bootstrap][download][url] = "https://github.com/phayes/geoPHP.git"
-libraries[geoPHP][download][branch] = "master"
-libraries[geoPHP][download][directory_name] = "geoPHP"
+; geoPHP -- Not needed?
+;libraries[geoPHP][download][type] = "git"
+;libraries[geoPHP][download][url] = "https://github.com/phayes/geoPHP.git"
+;libraries[geoPHP][download][branch] = "master"
+;libraries[geoPHP][download][directory_name] = "geoPHP"
 
 
