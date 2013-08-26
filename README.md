@@ -19,10 +19,10 @@ Structure
 =========
 *Base makefiles*
 The _tn__d7-base.make_ provides a standard set of modules and features:
-** _drupal-org-core.make_ - a patched Drupal 7 core from Omega8cc.
-** _drupal-org.make_ - a set of standard shared modules, libraries and themes
-** Radix Core - Theme & related modules - http://drupal.org/project/radix
-** Panoply - Panopoly distribution - http://drupal.org/project/panopoly
+* _drupal-org-core.make_ - a patched Drupal 7 core from Omega8cc.
+* _drupal-org.make_ - a set of standard shared modules, libraries and themes
+* Radix Core - Theme & related modules - http://drupal.org/project/radix
+* Panoply - Panopoly distribution - http://drupal.org/project/panopoly
 
 *National Hub makefiles*
 Extends the 'Base' makefile (_tn__d7-base.make_) to provide extra
