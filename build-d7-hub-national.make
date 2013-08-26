@@ -1,10 +1,11 @@
 ;
 ; Transition Network Drupal 7 -- National Hub platform makefile
-; 
+; - Extends on Transtion Network Drupal 7 Base to for National Hubs
+;
 ; * Based on Omega8cc's patched Drupal 7 version,
 ; * And Panopoly for editorial awesomosity.
 ; * With Radix for Bootstrap foundation and responsive panels goodness
-; * Based on Transtion Network Drupal 7 Core
+
 
 core = 7.x
 api = 2
@@ -18,11 +19,11 @@ projects[tn_d7_hub_national][download][url] = "https://github.com/transitionnetw
 projects[tn_d7_hub_national][download][branch] = "master"
 
 ;
-; Transition Network Core
+; Transition Network Drupal 7 Base
 ; - has all the Panopoly, Radix and standard modules needed.
-includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/master/tn_d7-core.make
+includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/master/tn_d7-base.make
 
 ;
 ; Modules, Themes, and Libraries
-; - Custom projects and code for Hubs (but not found in Core) go here...
+; - Custom projects and code for Hubs (but not found in Base) go here...
 
