@@ -17,6 +17,11 @@ projects[web_widgets][subdir] = "contrib"
 
 ; - Internationalisation & language
 projects[dnl][subdir] = "contrib"
+projects[i18n][subdir] = "contrib"
+
+; - General
+;   - needed by I18n
+projects[variable][subdir] = "contrib"
 
 ;
 ; Features - Debut/Panopoly
