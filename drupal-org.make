@@ -15,7 +15,8 @@ projects[leaflet_more_maps][subdir] = "contrib"
 ; - Widget-related
 projects[web_widgets][subdir] = "contrib"
 
-
+; - Internationalisation & language
+projects[dnl][subdir] = "contrib"
 
 ;
 ; Features - Debut/Panopoly
