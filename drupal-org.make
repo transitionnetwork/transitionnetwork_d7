@@ -21,8 +21,10 @@ projects[i18n][subdir] = "contrib"
 
 ; - User profiles & social login
 projects[hybridauth][subdir] = "contrib"
+projects[profile2][subdir] = "contrib"
 
 ; - General utilities, dependencies
+projects[rules][subdir] = "contrib"
 projects[variable][subdir] = "contrib"
 
 
