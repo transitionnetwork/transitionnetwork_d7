@@ -35,15 +35,26 @@ projects[variable][subdir] = "contrib"
 
 
 
-
 ;
 ; Features - Debut/Panopoly
 ;
-; - Add as needed
-;projects[XXX][subdir] = features
-;projects[XXX][version] = 1.x-dev
-;projects[XXX][patch][] = XXX
+projects[tn_d7_feat_base][type] = "module"
+projects[tn_d7_feat_base][download][type] = "git"
+projects[tn_d7_feat_base][download][url] = "git://github.com/transitionnetwork/tn_d7_feat_base.git"
+projects[tn_d7_feat_base][download][branch] = "master"
+projects[tn_d7_feat_base][subdir] = "features"
 
+projects[tn_d7_feat_user_base][type] = "module"
+projects[tn_d7_feat_user_base][download][type] = "git"
+projects[tn_d7_feat_user_base][download][url] = "git://github.com/transitionnetwork/tn_d7_feat_base.git"
+projects[tn_d7_feat_user_base][download][branch] = "master"
+projects[tn_d7_feat_user_base][subdir] = "features"
+
+projects[tn_d7_feat_initiative_base][type] = "module"
+projects[tn_d7_feat_initiative_base][download][type] = "git"
+projects[tn_d7_feat_initiative_base][download][url] = "git://github.com/transitionnetwork/tn_d7_feat_base.git"
+projects[tn_d7_feat_initiative_base][download][branch] = "master"
+projects[tn_d7_feat_initiative_base][subdir] = "features"
 
 
 
