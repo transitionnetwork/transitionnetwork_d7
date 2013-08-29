@@ -18,6 +18,9 @@ projects[web_widgets][subdir] = "contrib"
 ; - Internationalisation & language
 projects[dnl][subdir] = "contrib"
 projects[i18n][subdir] = "contrib"
+projects[i18nviews][subdir] = "contrib"
+projects[l10n_client][subdir] = "contrib"
+projects[l10n_update][subdir] = "contrib"
 
 ; - User profiles & social login
 projects[hybridauth][subdir] = "contrib"
@@ -27,8 +30,8 @@ projects[realname_registration][subdir] = "contrib"
 
 ; - General utilities, dependencies
 projects[rules][subdir] = "contrib"
+projects[transliteration][subdir] = "contrib"
 projects[variable][subdir] = "contrib"
-
 
 
 
@@ -40,6 +43,7 @@ projects[variable][subdir] = "contrib"
 ;projects[XXX][subdir] = features
 ;projects[XXX][version] = 1.x-dev
 ;projects[XXX][patch][] = XXX
+
 
 
 
