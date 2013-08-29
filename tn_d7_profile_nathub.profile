@@ -1,6 +1,6 @@
 <?php
 /**
- * @ file tn_d7_hub.profile
+ * @ file tn_d7_profile_nathub.profile
  *   Based heavily on the Panopoly install profile.
  */
 
@@ -8,7 +8,7 @@
 /**
  * Implements hook_install_tasks()
  */
-function tn_d7_hub_install_tasks(&$install_state) {
+function tn_d7_profile_nathub_install_tasks(&$install_state) {
 
   $tasks = array();
 
@@ -23,7 +23,7 @@ function tn_d7_hub_install_tasks(&$install_state) {
 /**
  * Implements hook_install_tasks_alter()
  */
-function tn_d7_hub_install_tasks_alter(&$tasks, $install_state) {
+function tn_d7_profile_nathub_install_tasks_alter(&$tasks, $install_state) {
 
   // Magically go one level deeper in solving years of dependency problems
   require_once(drupal_get_path('module', 'panopoly_core') . '/panopoly_core.profile.inc');
@@ -35,7 +35,7 @@ function tn_d7_hub_install_tasks_alter(&$tasks, $install_state) {
 /**
  * Implements hook_form_FORM_ID_alter()
  */
-function tn_d7_hub_form_install_configure_form_alter(&$form, $form_state) {
+function tn_d7_profile_nathub_form_install_configure_form_alter(&$form, $form_state) {
 
   // Hide some messages from various modules that are just too chatty.
   drupal_get_messages('status');
@@ -56,7 +56,7 @@ function tn_d7_hub_form_install_configure_form_alter(&$form, $form_state) {
 /**
  * Implements hook_form_FORM_ID_alter()
  */
-function tn_d7_hub_form_apps_profile_apps_select_form_alter(&$form, $form_state) {
+function tn_d7_profile_nathub_form_apps_profile_apps_select_form_alter(&$form, $form_state) {
 
   // For some things there are no need
   $form['apps_message']['#access'] = FALSE;
