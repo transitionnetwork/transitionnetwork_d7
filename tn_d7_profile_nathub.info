@@ -63,8 +63,15 @@ dependencies[] = radix_layouts
 ; Transition Network overrides & extras
 ;
 ; Theme
-dependencies[] = bootstrap
+;dependencies[] = bootstrap
 
 ;
 ; Modules
 ;
+
+;
+: Features
+;
+dependencies[] = tn_d7_feat_base
+dependencies[] = tn_d7_feat_user_base
+dependencies[] = tn_d7_feat_initiative_base

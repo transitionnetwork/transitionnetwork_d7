@@ -13,10 +13,10 @@ api = 2
 ;
 ; Transition Network National Hub profile
 ;
-projects[tn_d7_hub_national][type] = profile
-projects[tn_d7_hub_national][download][type] = "git"
-projects[tn_d7_hub_national][download][url] = "https://github.com/transitionnetwork/transitionnetwork_d7.git"
-projects[tn_d7_hub_national][download][branch] = "master"
+projects[tn_d7_profile_nathub][type] = profile
+projects[tn_d7_profile_nathub][download][type] = "git"
+projects[tn_d7_profile_nathub][download][url] = "https://github.com/transitionnetwork/transitionnetwork_d7.git"
+projects[tn_d7_profile_nathub][download][branch] = "master"
 
 ;
 ; Transition Network Drupal 7 Base
