@@ -24,6 +24,22 @@ projects[tn_d7_profile_nathub][download][branch] = "master"
 includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/master/tn_d7-base.make
 
 ;
-; Modules, Themes, and Libraries
+; Modules, Themes, Features and Libraries
 ; - Custom projects and code for Hubs (but not found in Base) go here...
+projects[tn_d7_feat_base][type] = "module"
+projects[tn_d7_feat_base][download][type] = "git"
+projects[tn_d7_feat_base][download][url] = "git://github.com/transitionnetwork/tn_d7_feat_base.git"
+projects[tn_d7_feat_base][download][branch] = "master"
+projects[tn_d7_feat_base][subdir] = "features"
 
+projects[tn_d7_feat_user_base][type] = "module"
+projects[tn_d7_feat_user_base][download][type] = "git"
+projects[tn_d7_feat_user_base][download][url] = "git://github.com/transitionnetwork/tn_d7_feat_base.git"
+projects[tn_d7_feat_user_base][download][branch] = "master"
+projects[tn_d7_feat_user_base][subdir] = "features"
+
+projects[tn_d7_feat_initiative_base][type] = "module"
+projects[tn_d7_feat_initiative_base][download][type] = "git"
+projects[tn_d7_feat_initiative_base][download][url] = "git://github.com/transitionnetwork/tn_d7_feat_base.git"
+projects[tn_d7_feat_initiative_base][download][branch] = "master"
+projects[tn_d7_feat_initiative_base][subdir] = "features"
