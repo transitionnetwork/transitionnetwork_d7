@@ -18,6 +18,8 @@ projects[web_widgets][subdir] = "contrib"
 ; - Internationalisation & language
 projects[dnl][subdir] = "contrib"
 projects[i18n][subdir] = "contrib"
+projects[l10n_client][subdir] = "contrib"
+projects[l10n_update][subdir] = "contrib"
 
 ; - User profiles & social login
 projects[hybridauth][subdir] = "contrib"
