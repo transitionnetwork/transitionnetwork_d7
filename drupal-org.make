@@ -19,9 +19,15 @@ projects[web_widgets][subdir] = "contrib"
 projects[dnl][subdir] = "contrib"
 projects[i18n][subdir] = "contrib"
 
-; - General
-;   - needed by I18n
+; - User profiles & social login
+projects[hybridauth][subdir] = "contrib"
+
+; - General utilities, dependencies
 projects[variable][subdir] = "contrib"
+
+
+
+
 
 ;
 ; Features - Debut/Panopoly
@@ -41,7 +47,12 @@ libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "http://getbootstrap.com/2.3.2/assets/bootstrap.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 
+; - HybridAuth
+libraries[hybridauth][download][type] = "get"
+libraries[hybridauth][download][url] = "http://sourceforge.net/projects/hybridauth/files/hybridauth-2.1.2.zip"
+libraries[hybridauth][directory_name] = "hybridauth"
+
 ; - Leaflet
-libraries[bootstrap][download][type] = "git"
-libraries[bootstrap][download][url] = "https://github.com/Leaflet/Leaflet.git"
-libraries[bootstrap][directory_name] = "leaflet"
+libraries[leaflet][download][type] = "git"
+libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet.git"
+libraries[leaflet][directory_name] = "leaflet"
