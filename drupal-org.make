@@ -13,6 +13,8 @@ core = 7.x
 ; ===============
 
 ; Modules - Pinned or patched versions
+projects[countries][subdir] = "contrib"
+projects[countries][version] = "2.x-dev"
 projects[maxlength][subdir] = "contrib"
 projects[maxlength][version] = "3.x-dev"
 
@@ -20,7 +22,7 @@ projects[maxlength][version] = "3.x-dev"
 projects[addressfield][subdir] = "contrib"
 projects[admin_menu][subdir] = "contrib"
 projects[coder][subdir] = "contrib"
-projects[countries][subdir] = "contrib"
+projects[devel][subdir] = "contrib"
 projects[dnl][subdir] = "contrib"
 projects[entitycache][subdir] = "contrib"
 projects[hybridauth][subdir] = "contrib"
@@ -31,6 +33,7 @@ projects[l10n_update][subdir] = "contrib"
 projects[geocoder][subdir] = "contrib"
 projects[geofield][subdir] = "contrib"
 projects[geophp][subdir] = "contrib"
+projects[grammar_parser_lib][subdir] = "contrib"
 projects[hybridauth][subdir] = "contrib"
 projects[ip_geoloc][subdir] = "contrib"
 projects[jquery_update][subdir] = "contrib"
