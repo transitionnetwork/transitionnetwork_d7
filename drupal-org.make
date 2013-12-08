@@ -29,6 +29,9 @@ projects[realname][subdir] = "contrib"
 projects[realname_registration][subdir] = "contrib"
 
 ; - General utilities, dependencies
+projects[maxlength][subdir] = "contrib"
+projects[maxlength][version] = "3.x-dev"
+projects[redirect][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
 projects[transliteration][subdir] = "contrib"
 projects[variable][subdir] = "contrib"

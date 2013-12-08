@@ -1,7 +1,7 @@
 ;
 ; Transition Network Drupal 7 -- Base
 ; - Provides standardised Transition Network base of modules and features.
-; 
+;
 ; Note this extends the following:
 ; * Based on Omega8cc's patched Drupal 7 version.
 ; * And full Panopoly suite for editorial awesomosity.
@@ -24,8 +24,3 @@ includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/maste
 ; Radix Core (modules & theme)
 ;
 includes[] = http://drupalcode.org/project/radix_core.git/blob_plain/HEAD:/radix_core.make
-
-;
-; Panopoly
-;
-includes[] = http://drupalcode.org/project/panopoly.git/blob_plain/HEAD:/drupal-org.make

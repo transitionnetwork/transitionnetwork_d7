@@ -1,0 +1,61 @@
+name = Transition Network National Hub - Simple
+distribution_name = Transition Network D7
+description = Transition Network National Hub profile WITHOUT Panopoly: Based on Radix, Bootstrap, and other goodies added.
+core = 7.x
+exclusive = 1
+
+;
+; Drupal Core
+;
+dependencies[] = menu
+dependencies[] = image
+dependencies[] = list
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = dblog
+dependencies[] = update
+
+
+; Panopoly Recommended - Admin & UI
+dependencies[] = navbar
+dependencies[] = backports
+dependencies[] = simplified_menu_admin
+dependencies[] = save_draft
+dependencies[] = module_filter
+dependencies[] = date_popup_authored
+dependencies[] = views_ui
+
+; Panopoly Recommended - Other
+dependencies[] = devel
+dependencies[] = uuid
+dependencies[] = defaultcontent
+dependencies[] = apps
+
+; Radix
+dependencies[] = radix_admin
+dependencies[] = radix_layouts
+
+
+;
+; Transition Network overrides & extras
+;
+; Theme
+;dependencies[] = bootstrap
+
+;
+; Modules
+;
+
+;
+: Features
+;
+dependencies[] = tn_d7_feat_base
+dependencies[] = tn_d7_feat_user_base
+dependencies[] = tn_d7_feat_initiative_base
