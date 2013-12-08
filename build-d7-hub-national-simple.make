@@ -21,4 +21,10 @@ projects[tn_d7_profile_nathub][download][branch] = "master"
 ;
 ; Transition Network Drupal 7 Base
 ; - has all the Panopoly, Radix and standard modules needed.
-includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/master/tn_d7-base.make
+includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/master/tn-d7-base.make
+
+;
+; TN Panopoly Filler
+; (Keeps this 'Simple' distro using the best bits of Panopoly, minus the Panopoly-specific bits)
+;
+includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/master/tn-d7-panopoly-filler.make

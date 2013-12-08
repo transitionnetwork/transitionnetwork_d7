@@ -19,11 +19,11 @@ projects[tn_d7_profile_nathub][download][url] = "https://github.com/transitionne
 projects[tn_d7_profile_nathub][download][branch] = "master"
 
 ;
+; Transition Network Drupal 7 Base
+; - has all the Panopoly, Radix and standard modules needed.
+includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/master/tn-d7-base.make
+
+;
 ; Panopoly
 ;
 includes[] = http://drupalcode.org/project/panopoly.git/blob_plain/HEAD:/drupal-org.make
-
-;
-; Transition Network Drupal 7 Base
-; - has all the Panopoly, Radix and standard modules needed.
-includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/master/tn_d7-base.make
