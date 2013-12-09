@@ -88,6 +88,12 @@ projects[tn_d7_feat_user_base][download][url] = "git://github.com/transitionnetw
 projects[tn_d7_feat_user_base][download][branch] = "master"
 projects[tn_d7_feat_user_base][subdir] = "features"
 
+projects[tn_d7_feat_initiative_base][type] = "module"
+projects[tn_d7_feat_initiative_base][download][type] = "git"
+projects[tn_d7_feat_initiative_base][download][url] = "git://github.com/transitionnetwork/tn_d7_feat_initiative_base.git"
+projects[tn_d7_feat_initiative_base][download][branch] = "master"
+projects[tn_d7_feat_initiative_base][subdir] = "features"
+
 projects[tn_d7_feat_initiative_maps][type] = "module"
 projects[tn_d7_feat_initiative_maps][download][type] = "git"
 projects[tn_d7_feat_initiative_maps][download][url] = "git://github.com/transitionnetwork/tn_d7_feat_initiative_maps.git"
