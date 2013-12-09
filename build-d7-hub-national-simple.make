@@ -23,7 +23,7 @@ projects[tn_d7_profile_nathub][download][branch] = "master"
 ; ============
 projects[widgetizer][type] = "module"
 projects[widgetizer][download][type] = "git"
-projects[widgetizer][download][url] = "git://github.com/transitionnetwork/i-jk/widgetizer.git"
+projects[widgetizer][download][url] = "git://github.com/i-jk/widgetizer.git"
 projects[widgetizer][download][branch] = "master"
 projects[widgetizer][subdir] = "features"
 

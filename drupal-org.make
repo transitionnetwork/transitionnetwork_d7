@@ -61,11 +61,11 @@ projects[variable][subdir] = "contrib"
 
 ; Transition Network - Modules
 ; ----------------------------
-projects[tn_widgets][type] = "module"
-projects[tn_widgets][download][type] = "git"
-projects[tn_widgets][download][url] = "git://github.com/transitionnetwork/tn_widgets.git"
-projects[tn_widgets][download][branch] = "master"
-projects[tn_widgets][subdir] = "contrib"
+projects[tn_widgets_tweaks][type] = "module"
+projects[tn_widgets_tweaks][download][type] = "git"
+projects[tn_widgets_tweaks][download][url] = "git://github.com/transitionnetwork/tn_widgets_tweaks.git"
+projects[tn_widgets_tweaks][download][branch] = "master"
+projects[tn_widgets_tweaks][subdir] = "contrib"
 
 projects[widgetizer][type] = "module"
 projects[widgetizer][download][type] = "git"
