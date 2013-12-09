@@ -17,6 +17,8 @@ projects[countries][subdir] = "contrib"
 projects[countries][version] = "2.x-dev"
 projects[maxlength][subdir] = "contrib"
 projects[maxlength][version] = "3.x-dev"
+projects[mlpanels][subdir] = "contrib"
+projects[mlpanels][version] = "1.x-dev"
 
 ; Modules - standard latest version
 projects[addressfield][subdir] = "contrib"
@@ -40,7 +42,6 @@ projects[jquery_update][subdir] = "contrib"
 projects[leaflet][subdir] = "contrib"
 projects[leaflet_more_maps][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
-projects[mlpanels][subdir] = "contrib"
 projects[module_filter][subdir] = "contrib"
 projects[profile2][subdir] = "contrib"
 projects[realname][subdir] = "contrib"
@@ -87,11 +88,11 @@ projects[tn_d7_feat_user_base][download][url] = "git://github.com/transitionnetw
 projects[tn_d7_feat_user_base][download][branch] = "master"
 projects[tn_d7_feat_user_base][subdir] = "features"
 
-projects[tn_d7_feat_initiative_base][type] = "module"
-projects[tn_d7_feat_initiative_base][download][type] = "git"
-projects[tn_d7_feat_initiative_base][download][url] = "git://github.com/transitionnetwork/tn_d7_feat_initiative_base.git"
-projects[tn_d7_feat_initiative_base][download][branch] = "master"
-projects[tn_d7_feat_initiative_base][subdir] = "features"
+projects[tn_d7_feat_initiative_maps][type] = "module"
+projects[tn_d7_feat_initiative_maps][download][type] = "git"
+projects[tn_d7_feat_initiative_maps][download][url] = "git://github.com/transitionnetwork/tn_d7_feat_initiative_maps.git"
+projects[tn_d7_feat_initiative_maps][download][branch] = "master"
+projects[tn_d7_feat_initiative_maps][subdir] = "features"
 
 
 ; =========
