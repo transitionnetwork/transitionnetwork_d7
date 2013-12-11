@@ -22,11 +22,14 @@ projects[tn_d7_profile_nathub][download][branch] = "master"
 ; ============
 ; Hub-specific
 ; ============
+
+; Hub-specific -- Widget related
+; ------------------------------
 projects[widgetizer][type] = "module"
 projects[widgetizer][download][type] = "git"
 projects[widgetizer][download][url] = "git://github.com/i-jk/widgetizer.git"
 projects[widgetizer][download][branch] = "master"
-projects[widgetizer][subdir] = "features"
+projects[widgetizer][subdir] = "custom"
 
 projects[tn_d7_feat_widgets_national_hub][type] = "module"
 projects[tn_d7_feat_widgets_national_hub][download][type] = "git"
@@ -46,12 +49,14 @@ projects[tn_widgets_theme][download][url] = "git://github.com/transitionnetwork/
 projects[tn_widgets_theme][download][branch] = "master"
 
 
-;
-; Transition Network Drupal 7 Base
-; - has all the Panopoly, Radix and standard modules needed.
+; ====
+; Base
+; ====
+
+; Transition Network Drupal 7 Base - has all the extra modules Panopoly doesn't provide that we need
+; --------------------------------
 includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/master/tn-d7-base.make
 
-;
 ; Panopoly
-;
+; --------
 includes[] = http://drupalcode.org/project/panopoly.git/blob_plain/HEAD:/drupal-org.make
