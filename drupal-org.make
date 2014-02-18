@@ -74,7 +74,7 @@ projects[widgetizer][download][url] = "git://github.com/i-jk/widgetizer.git"
 projects[widgetizer][download][branch] = "master"
 projects[widgetizer][subdir] = "contrib"
 
-; Transition Network - Modules
+; Transition Network - Themes
 ; ----------------------------
 projects[tn_radix][type] = "theme"
 projects[tn_radix][download][type] = "git"
