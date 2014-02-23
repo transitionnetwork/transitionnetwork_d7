@@ -21,6 +21,8 @@ includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/maste
 includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/master/drupal-org.make
 
 ;
-; Radix Core (modules & theme)
+; Radix Core (modules & theme) 2.x
 ;
-includes[] = http://drupalcode.org/project/radix_core.git/blob_plain/HEAD:/radix_core.make
+; -- Note 3.x nearing completion, should be updated when it's ready!
+projects[radix_core][version] = 2.x-dev
+projects[radix_core][subdir] = contrib
