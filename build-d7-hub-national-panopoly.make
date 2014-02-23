@@ -57,6 +57,6 @@ projects[tn_widgets_theme][download][branch] = "master"
 ; --------------------------------
 includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/master/tn-d7-base.make
 
-; Panopoly
-; --------
-includes[] = http://drupalcode.org/project/panopoly.git/blob_plain/HEAD:/drupal-org.make
+; Panopoly 1.1
+; ------------
+includes[] = http://drupalcode.org/project/panopoly.git/blob/79bba7ea07361da9d6da66f79cb8453de6f6c627:/drupal-org.make
