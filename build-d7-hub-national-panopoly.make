@@ -59,4 +59,4 @@ includes[] = https://raw.github.com/transitionnetwork/transitionnetwork_d7/maste
 
 ; Panopoly 1.1
 ; ------------
-includes[] = http://drupalcode.org/project/panopoly.git/blob/79bba7ea07361da9d6da66f79cb8453de6f6c627:/drupal-org.make
+includes[] = http://drupalcode.org/project/panopoly.git/blob_plain/79bba7ea07361da9d6da66f79cb8453de6f6c627:/drupal-org.make
