@@ -2,8 +2,7 @@
 ; =======================
 ;
 ; This file includes the key dependencies and should be used in combination with
-; the tn-d7-panopoly-filler.make file, which adds a standard base without using the
-; Panopoly-specific modules.
+; a specific 'build' makefile.
 
 api = 2
 core = 7.x
