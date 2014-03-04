@@ -16,6 +16,11 @@ projects[countries][subdir] = "contrib"
 projects[countries][version] = "2.x-dev"
 projects[maxlength][subdir] = "contrib"
 projects[maxlength][version] = "3.x-dev"
+; Panels 3.4 -- note this is a newer version that Panopoly at time of writing and
+; is an overhang from developing against Panopoly HEAD. This should be removed as
+; soon as Panopoly 1.2 comes out...
+projects[panels][subdir] = "contrib"
+projects[panels][version] = "3.4"
 
 ; Modules - standard latest version
 projects[addressfield][subdir] = "contrib"
