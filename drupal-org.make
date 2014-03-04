@@ -16,8 +16,6 @@ projects[countries][subdir] = "contrib"
 projects[countries][version] = "2.x-dev"
 projects[maxlength][subdir] = "contrib"
 projects[maxlength][version] = "3.x-dev"
-projects[mlpanels][subdir] = "contrib"
-projects[mlpanels][version] = "1.x-dev"
 
 ; Modules - standard latest version
 projects[addressfield][subdir] = "contrib"
